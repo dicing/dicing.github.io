@@ -1,8 +1,35 @@
 
 
+@font-face {
+    font-family: 'rsbold';
+    src: url('runescape-bold-12-webfont.woff2') format('woff2'),
+         url('runescape-bold-12-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'rsplain';
+    src: url('runescape-plain-12-webfont.woff2') format('woff2'),
+         url('runescape-plain-12-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 html{
 background-color: #494033;
+font-family: "rsbold";
+font-weight:normal;
+font-style:normal;
 }
+
+
 img{
 background-color: white;
 
@@ -24,9 +51,23 @@ margin: 0px 58mm 0px 58mm;
 #border{
 	padding: 0px 20px 0px 20px;
 	margin-top: 0px;
-	background-color: green;
+	background-color: #2e2820;
+
 	height: 100vh;
 	overflow-y: hidden;
+	-moz-border-radius: 8px;
+	border-radius:8px;
+
+}
+
+
+
+
+
+
+.inner{
+
+  background:url(white.gif);
 }
 
 h2 {
